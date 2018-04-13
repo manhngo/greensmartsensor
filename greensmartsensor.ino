@@ -13,10 +13,10 @@ const int DHTTYPE = DHT22;  //Khai báo loại cảm biến, có 2 loại là DH
 const int led = 2;
 DHT dht(DHTPIN, DHTTYPE);
 SocketIOClient client;
-const char* ssid = "Manh";
+const char* ssid = "XXXX";
 const char* password = "12345678";
 
-char host[] = "192.168.1.10";
+char host[] = "192.168.43.101";
 int port = 3000;
 
 extern String RID;
